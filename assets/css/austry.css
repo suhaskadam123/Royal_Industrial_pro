@@ -14642,7 +14642,7 @@ ul {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: -10000000px;
+  right: -100px;
   left: 99%;
   background-color: var(--austry-base);
   z-index: -1;
@@ -17061,7 +17061,7 @@ ul {
   border: none;
   height: 660px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 
