@@ -42,7 +42,7 @@ try {
 
 	//Recipients
 	$mail->setFrom(HOST_EMAIL, HOST_NAME);
-	$mail->addAddress(RECIPIENT_EMAIL, RECIPIENT_NAME);     //Add a recipient
+	$mail->addAddress(RECIPIENT_EMAIL, RECIPIENT_NAME);     // Add a recipient
 
 	//Content
 	$name = isset($_POST['name']) ? preg_replace("/[^\.\-\' a-zA-Z0-9]/", "", $_POST['name']) : "";
